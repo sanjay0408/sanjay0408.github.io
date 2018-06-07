@@ -6,7 +6,7 @@
   function frame(){
   	if(loading == 80){
   		clearInterval(id);
-  		window.open("welcome.php","_self");
+  		window.open("welcome.html","_self");
   	}
   	else{
   		loading = loading + 1;
